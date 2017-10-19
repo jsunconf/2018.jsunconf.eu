@@ -1,0 +1,103 @@
+section.section.section--location
+  header.section__header.section__header--location
+    h2 Location
+
+  .section__content
+    p Yes, we have a new location. The <a href="http://www.bmk-hh.de">BMK</a> will host the JSUnconf this year. We are excited!
+    p
+      | Berufliche Schule für Medien und Kommunikation
+      br
+      | Eulenkamp 46
+      br
+      | 22049 Hamburg
+
+    p On Saturday there is an official party happening at the "13ter Stock" bar beginning at 20:00. The bar is above the Bar Rossi. The entrance is to the right.
+    p Please see the map for location overview and addresses.
+
+    .map
+      .map__canvas#map-canvas
+
+    script(src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.js')
+
+    script.
+      mapboxgl.accessToken = 'pk.eyJ1IjoianN1bmNvbmYiLCJhIjoiY2lqdTV3cjNwMDAxYnU5bTRnNzg3cWU0byJ9.tRs9vvtTl1JpoRUzqTbGaQ';
+
+      var map = new mapboxgl.Map({
+        container: 'map-canvas',
+        style: 'mapbox://styles/jsunconf/ciju5ysiq00fvbpm373dkh84x',
+        center: [10.030,53.570],
+        zoom: 12,
+        scrollZoom: false,
+        touchZoomRotate: false
+      });
+
+      map.addControl(new mapboxgl.Navigation());
+
+      /*
+       * Available marker types are: bar and university.
+       * Can add more, just ping me.
+       */
+      var markers = {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            properties: {
+              'marker-symbol': 'university',
+              description: '<strong>Berufliche Schule für Medien und Kommunikation</strong><br />Eulenkamp 46<br />22049 Hamburg<br /><br /><a href="https://www.google.de/maps/place/Berufliche+Schule+f%C3%BCr+Medien+und+Kommunikation/@53.58119,10.0685813,17z/data=!3m1!4b1!4m5!3m4!1s0x4163bb576c95a7df:0xa76f0c9d429e081f!8m2!3d53.58119!4d10.07077" target="_blank" title="Navigate">&raquo; Navigate here</a>'
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [10.070908,
+          53.581185]
+            }
+          }, {
+            type: 'Feature',
+            properties: {
+              'marker-symbol': 'bar',
+              description: '<strong>13ter Stock</strong><br />Above Bar Rossi<br />Max-Brauer-Allee 279<br />22769 Hamburg<br /><br />Saturday, March 25th 2017<br />starting at 20h<br /><br /><a href="https://www.google.de/maps/place/13ter+Stock/@53.5632727,9.9586764,17z/data=!4m5!3m4!1s0x47b18f42d5a59093:0xfc9005b601bd7b85!8m2!3d53.5637188!4d9.9596313" target="_blank" title="Navigate">&raquo; Navigate here</a>'
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [ 9.959517,
+          53.563802]
+            }
+          }
+        ]
+      }
+
+      map.on('style.load', function () {
+        map.addSource('markers', {
+          type: 'geojson',
+          data: markers
+        });
+        map.addLayer({
+          id: 'markers',
+          interactive: true,
+          type: 'symbol',
+          source: 'markers',
+          layout: {
+            'icon-allow-overlap': true,
+            'icon-image': '{marker-symbol}',
+            'icon-offset': [0, -16]
+          }
+        });
+      });
+
+      map.on('click', function (e) {
+        map.featuresAt(e.point, {layer: 'markers', radius: 32, includeGeometry: true}, function (err, features) {
+          if (err || !features.length) return;
+
+          var feature = features[0];
+          new mapboxgl.Popup()
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML(feature.properties.description)
+            .addTo(map);
+        });
+      });
+
+      map.on('mousemove', function (e) {
+        map.featuresAt(e.point, {layer: 'markers', radius: 32}, function (err, features) {
+          map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+        });
+      });

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "JSUnconf 2018",
+    "description": "The Unconference that started it all."
+  },
+  "source": "content",
+  "destination": "docs",
+  "plugins": {
+    "metalsmith-metadata": {
+      "sponsors": "sponsors.yaml"
+    },
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":url"
+    },
+    "metalsmith-templates": {
+      "engine": "jade",
+      "directory": "theme/jade"
+    },
+    "metalsmith-assets": {
+      "source": "./theme/assets",
+      "destination": "./"
+    },
+    "metalsmith-stylus": {
+      "paths": ["theme/styles"]
+    }
+  }
+}

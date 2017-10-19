@@ -1,0 +1,155 @@
+*, *:before, *:after
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+::-moz-selection
+  color: $backgroundColor
+  background: rgba(145, 28, 128, 0.8)
+
+::selection
+  color: $backgroundColor
+  background: rgba(145, 28, 128, 0.8)
+
+::-webkit-input-placeholder
+  color: rgba(255, 255, 255, 0.5)
+
+:-moz-placeholder
+  color: rgba(255, 255, 255, 0.5)
+
+::-moz-placeholder
+  color: rgba(255, 255, 255, 0.5)
+
+:-ms-input-placeholder
+  color: rgba(255, 255, 255, 0.5)
+
+html
+  height: 100%
+  font-size: 100%
+  tap-highlight-color: rgba(0, 0, 0, 0)
+  background-color: $backgroundColor
+  background-image: url('/images/background.png')
+  background-size: 120%
+  background-position: right bottom
+  background-repeat: no-repeat
+  overflow: hidden
+
+  @media $mediaQuerySmall
+    font-size: 112.5%
+    background-size: 90%
+
+  @media $mediaQueryBig
+    background-size: emCalc(900)
+
+body
+  font-size: 1rem
+
+  display: flex
+  align-items: center
+  flex-direction: column
+
+  font-family: 'Roboto Mono', sans-serif
+  color: $mainFontColor
+  line-height: 1.666
+
+  height: 100%
+
+  overflow-x: hidden
+  overflow-y: auto
+  -webkit-overflow-scrolling: touch;
+
+header,
+nav,
+section
+  max-width: emCalc(1200)
+  width: 100%
+
+p
+  margin-bottom: emCalc(10)
+a
+  color: $mainFontColor
+  font-weight: 700
+  transition: background-color .15s ease-in-out, color .15s ease-in-out
+
+  &:hover, &:focus
+    color: $backgroundColor
+    background-color: $mainFontColor
+
+img
+  max-width: 100%
+
+ul
+  list-style: none
+
+li
+  margin: 0
+
+dt, dd
+  display: inline
+  margin: 0
+
+dd:after
+  content: '\A'
+  white-space: pre
+
+h1, h2, h3, h4
+  margin: .5em 0 0 0
+  padding: 1em 0
+  line-height: 1.2
+
+h1
+  font-size: remCalc(63)
+  text-align: center
+
+h2
+  font-size: remCalc(50)
+  text-align: center
+
+h3
+  font-size: remCalc(32)
+
+h4
+  font-size: remCalc(20)
+
+.bold
+  font-weight: 700
+
+.exerpt
+  font-size: remCalc(18)
+  line-height: 2em
+
+.button
+  font-size: remCalc(20)
+  font-weight: 700
+  text-transform: uppercase
+  display: inline-block
+  text-decoration: none
+  padding: emCalc(10, 20) emCalc(40, 20)
+
+  box-shadow: 3px 3px 0px rgba(black, .25)
+  border: 3px solid $mainFontColor
+
+  color: $mainFontColor
+  letter-spacing: .5px
+
+  background-color: $backgroundColor
+  transition: background-color .15s ease-in-out, color .15s ease-in-out
+
+  &:hover, &:focus
+    color: $backgroundColor
+    background-color: $mainFontColor
+
+  &[disabled]
+    background-color: rgba(black, .1)
+    &:hover, &:focus
+      color: $mainFontColor
+
+/**
+ * Mapbox GL Infowindow Popup
+ */
+.mapboxgl-popup-content
+  color: black
+  a
+    color: black
+.mapboxgl-popup-close-button
+  display: none

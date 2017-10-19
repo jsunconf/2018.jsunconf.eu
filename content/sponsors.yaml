@@ -1,0 +1,106 @@
+-
+  name: "SinnerSchrader"
+  level: Gold
+  url: "http://sinnerschrader.com"
+  twitter: "@sinnerschrader"
+  image: sinnerschrader.svg
+  description: "We are one of Europe’s leading digital agencies. SinnerSchrader stands for technological excellence. 500 employees – around 200+ of whom are developers – realise platforms for brands such as Allianz, BMW, Beck’s, comdirect bank, Joop, windsor, strellson, Hapag-Lloyd, REWE, simyo, Tchibo and TUIfly. SinnerSchrader was founded roughly the same time JavaScript has been invented. We went public in 1999, based in Hamburg, Berlin, Frankfurt/Main, Munich and Prague."
+
+-
+  name: "AKRA"
+  level: Bronze
+  url: "http://akra.de/"
+  twitter: "@AKRA_Hamburg"
+  image: akra.svg
+  description: "AKRA GmbH ist ein Hamburger IT-Dienstleister mit dem Schwerpunkt Softwareentwicklung. Von etablierten norddeutschen Unternehmen bis Hamburger Start-ups: die rund 70 AKRA-Spezialisten entwickeln professionelle und individuelle IT-Lösungen. AKRA ist besonders auf die Umsetzung von komplexen Softwareapplikationen im Umfeld von Java/JEE, Ruby on Rails, JavaScript, Web-Services und Web-Portalen spezialisiert. AKRA baut auf jahrelange Projekterfahrung und hat dabei stets die effizienten Innovationen des IT-Sektors im Blick. Als offizieller Training Partner von Docker veranstaltet AKRA zertifizierte Docker-Trainings und -Coachings."
+
+-
+  name: "Ubilabs"
+  level: Silver
+  url: "http://www.ubilabs.net/"
+  twitter: "@ubilabs"
+  image: ubilabs.svg
+  description: "Ubilabs is an owner-managed software and design company with offices in Hamburg, Munich and San Francisco. From store locators to visual representations of business data, we are specialists in interactive map applications.
+
+With a team of 40 developers, designers and project managers, we bring projects to life for renowned customers in Europe and the US."
+
+-
+  name: "CoreMedia"
+  level: Silver
+  url: "http://www.coremedia.com/"
+  twitter: "@CoreMedia_News"
+  image: coremedia.svg
+  description: "CoreMedia is a leading digital experience (DX) company that has been powering the online strategy of organizations across varied industries for more than 20 years. We partner with our customers to connect them with their audiences wherever they are by seamlessly integrating digital, e-Commerce and social media assets, accelerating time to market and increasing the productivity of business users. Our solutions also help transform e-Commerce stores by infusing visually compelling and immersive content into the online customer experience, resulting in increased engagement, sales, and loyalty.
+Established in 1996, CoreMedia is headquartered in Hamburg, Germany, with offices in San Francisco, Washington DC, London and Singapore. CoreMedia’s clients include global brands, such as Australian Broadcasting Corporation (ABC), ARD, BILD, CLAAS, Continental, Deutsche Bahn, Deutsche Telekom, Gruppe Deutsche Börse, Handelsblatt,  Henkel, Office Depot und Telefónica Germany."
+
+-
+  name: "neuland Büro für Informatik"
+  level: Silver
+  url: "http://www.neuland-bfi.de/"
+  twitter: "@neuland"
+  image: neuland.svg
+  description: "The neuland bremen GmbH is one of the 10 largest e-commerce service providers in Germany and is placed 8th in the 2015 e-commerce service provider ranking. We only do consulting and development in the field of e-commerce. Our customers include companies like Breuninger (fashion), Douglas (perfumery), Höffner (furniture) or OBI (DIY). Our core competence is the creation of of highly customised, high-quality shop solutions for large enterprises. We use agile and iterative methods for all project operations, especially in planning, development and control. We support our customers to adapt their business processes. We manage online projects - with everything that goes with it. Our team is talented and well trained - we even have fun at work. What can you expect? Smart people in self-organised teams. Critical thinking and the sometimes uncomfortable questions that go with it. Direct, open collaboration with our customers; we see ourselves as partners. The conviction, that what we do makes a difference - this is our recipe for success."
+
+-
+  name: "CELLULAR"
+  level: Silver
+  url: "http://cellular.de"
+  twitter: "@cellular_gmbh"
+  image: cellular.svg
+  description: CELLULAR is a cross between software company and creative agency. More than 100 experts work for awesome clients like ZDF, TUI Cruises, Unitymedia, Sunrise, NZZ, or BUDNI. We are the guys behind multi-channel and all types of smart screens. Our people are passionate about what they do, and many of them are best in class. We build brilliant digital products with a strong focus on usability, performance and software craftsmanship. Sounds too good to be true, right? We’d love to hear from you, if you want find out more! See you soon!
+
+-
+  name: "Rheinwerk Verlag"
+  level: Bronze
+  url: "https://www.rheinwerk-verlag.de"
+  twitter: "@rheinwerkverlag"
+  image: rheinwerk.svg
+  description: "Rheinwerk is Germany's leading publisher of IT books. Our books, e-books and video tutorials are a real boon for beginners, advanced learners and professionals alike, whether they want to acquire basic software and hardware skills or deepen their technical know-how. In addition to books for programmers, designers and administrators, we offer a wide range of learning material for users of JavaScript and other programming languages for the web."
+
+-
+  name: "DNSimple"
+  level: Silver
+  url: "https://dnsimple.com"
+  twitter: "@DNSimple"
+  image: dnsimple.svg
+  description: "DNSimple provides the tools your need to manage your domains. We offer both a carefully crafted web interface for managing your domains and DNS records, as well as an HTTP API with various code libraries and tools.
+At DNSimple we put our customers' needs first and do everything we can to provide a straightforward and easy to use interface for setting up and editing DNS records. Rather than offering only DNS services, or focusing on domain registration without a focus on excellent DNS, we unite both aspects of managing domains (and throw in SSL certificates) to provide a streamlined system for managing all of your domains easily so you can do other things instead of fighting with your domain provider."
+
+-
+  name: "Xing"
+  level: Gold
+  url: "https://www.xing.com"
+  twitter: "@xing_de"
+  image: xing.svg
+  description: "XING is the social network for business contacts.
+
+XING has 10.5 million users in its core German-speaking market.
+
+XING is a platform where professionals from all kinds of different industries can meet up, find jobs, colleagues, new assignments, cooperation partners,
+experts, generate business ideas and discover the latest industry topics. Members can meet and exchange views in over 74,000 specialist groups, while also getting together at networking events. The platform is operated by XING AG."
+
+-
+  name: "sum.cumo"
+  twitter: "@sumcumo"
+  level: Silver
+  url: "https://www.sumcumo.com/"
+  image: sumcumo.svg
+  description: "sum.cumo helps lottery and insurance companies prepare their business model for the digital age. Backed by years of industry experience and a service offering tailored to digitalisation, we are able to produce quick, simple and efficient solutions for our customers - from corporations to innovative start-ups.
+sum.cumo is not only a partner for modern technical solutions and marketing opportunities, but also helps establish a holistic, digital company philosophy that factors in new and existing potential in companies and the rapidly-changing market.
+Our Specialists in Strategy, Consulting, Communication and Technology at our offices in Zurich and Hamburg look forward to expanding on the success of their Customers and executing new, innovative projects, perhaps for your company as well."
+
+-
+  name: "Finanzcheck"
+  twitter: "@finanzcheck_de"
+  level: Silver
+  url: "https://www.finanzcheck.de/karriere/"
+  image: finanzcheck.svg
+  description: "FINANZCHECK.de is Germany’s fastest growing loan marketplace, comparing over 30 banks and P2P lender scorecards in providing real-time meta online comparison of consumer loans. All comparisons are free and without obligation, resulting in on average customer interest cost saving of 30% and 2x the loan matching success versus stand-alone banks. In addition, Finanzcheck offers innovative B2B2C white label and B2B consumer financing technology solutions for brokers and banks."
+
+-
+  name: "Thoughtworks"
+  twitter: "@thoughtworks_de"
+  level: Bronze
+  url: "https://www.thoughtworks.com/de"
+  image: thoughtworks.svg
+  description: "We are a software company and a community of passionate, purpose-led individuals. We think disruptively to deliver technology to address our clients' toughest challenges, all while seeking to revolutionize the IT industry and create positive social change. At ThoughtWorks we promote diversity in all its forms and reject discrimination and inequality. We proudly, passionately and actively strive to make both ThoughtWorks and our industry more reflective and inclusive of the society that we serve."

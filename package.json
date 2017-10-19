@@ -1,35 +1,46 @@
 {
   "name": "2018.jsunconf.eu",
   "version": "0.0.1",
-  "description": "JSUnconf 2018 website",
+  "description": "The 5th edition of the JSUnconf website",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "handlebars": "^4.0.6",
+    "light-server": "^1.1.2",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-feed": "^0.2.0",
+    "metalsmith-html-minifier": "^2.2.0",
+    "metalsmith-in-place": "^1.4.4",
+    "metalsmith-layouts": "^1.7.0",
+    "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-permalinks": "^0.4.1",
+    "metalsmith-publish": "^0.1.5",
+    "metalsmith-stylus": "^1.0.0",
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-word-count": "0.0.4",
+    "moment": "^2.10.6",
+    "then-jade": "^2.4.1"
+  },
   "scripts": {
     "start": "npm run clean && npm run build && npm run server",
     "clean": "rm -rf build",
     "server": "light-server -s ./docs/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
     "build": "metalsmith",
-    "test": "test"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jsunconf/2018.jsunconf.eu.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jsunconf/2018.jsunconf.eu/issues"
   },
-  "homepage": "https://github.com/jsunconf/2018.jsunconf.eu#readme",
-  "dependencies": {
-    "light-server": "^2.2.1",
-    "metalsmith": "^2.3.0"
-  },
-  "devDependencies": {
-    "cz-conventional-changelog": "^2.0.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  "homepage": "https://2018.jsunconf.eu"
 }

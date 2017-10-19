@@ -1,0 +1,10 @@
+extends _layout
+
+block main
+  section.section
+    header.section__header
+      h1 !{title}
+      if exerpt
+        p.exerpt !{exerpt}
+
+    .section__content !{contents}

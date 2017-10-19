@@ -1,0 +1,24 @@
+/**
+ * calculate an rem-value for a given pixel-size
+ */
+remCalc(_px, _base = 18)
+  return (_px / _base)rem
+
+/**
+ * calculate an em-value for a given pixel-size
+ */
+emCalc(_px, _base = 18)
+  return (_px / _base)em
+
+$mainFontColor = #911C80
+$mainFontColorHover = darken($mainFontColor, 10%)
+$inputFontColor = #911C80
+
+$blue = #004b9f
+$lighterBlue =  #0069b4
+$lightBlue = #338bca
+
+$backgroundColor = #fff
+
+$mediaQuerySmall = '(min-width: 600px)'
+$mediaQueryBig = '(min-width: 900px)'
