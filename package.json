@@ -1,0 +1,35 @@
+{
+  "name": "2018.jsunconf.eu",
+  "version": "0.0.1",
+  "description": "JSUnconf 2018 website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run clean && npm run build && npm run server",
+    "clean": "rm -rf build",
+    "server": "light-server -s ./docs/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
+    "build": "metalsmith",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsunconf/2018.jsunconf.eu.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsunconf/2018.jsunconf.eu/issues"
+  },
+  "homepage": "https://github.com/jsunconf/2018.jsunconf.eu#readme",
+  "dependencies": {
+    "light-server": "^2.2.1",
+    "metalsmith": "^2.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
