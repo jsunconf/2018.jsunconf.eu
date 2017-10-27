@@ -7,7 +7,7 @@ exerpt:
 
 This conference is proudly presented to you by
 
-[Tina Umlandt](https://twitter.com/tu404), [Philipp Hinrichsen](https://twitter.com/sp3c1), [Patty Chaupis](https://twitter.com/chaupois) and [Stefan Schulte](https://twitter.com/schubidu)
+[Tina Umlandt](https://twitter.com/tu404), [Patty Chaupis](https://twitter.com/chaupois) and [Stefan Schulte](https://twitter.com/schubidu)
 
 <br><br>
 
