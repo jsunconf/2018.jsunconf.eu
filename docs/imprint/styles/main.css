@@ -202,7 +202,6 @@ body.black .main-footer {
 }
 body.black .main-footer__people {
   height: 20em;
-  background: url("/images/people.jpg") no-repeat center center;
   background-size: cover;
   margin-bottom: 3em;
   position: relative;
