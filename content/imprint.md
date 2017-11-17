@@ -10,6 +10,9 @@ This conference is proudly presented to you by
 [Tina Umlandt](https://twitter.com/tu404), [Patty Chaupis](https://twitter.com/chaupois) and [Stefan Schulte](https://twitter.com/schubidu)
 
 <br><br>
+Design by [Jonas Schmidt](https://twitter.com/JonasASchmidt)
+
+<br><br>
 
 The JSUnconf is organized by the [BOOT e.V.](https://www.bootev.org/)
 

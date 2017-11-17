@@ -39,17 +39,17 @@ html
     link(href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.css' rel='stylesheet' type='text/css')
     link(href='/styles/main.css' rel='stylesheet' type='text/css')
     script(src='/scripts/styleSelector.js')
-    link(href='//fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet')
+    link(href='//fonts.googleapis.com/css?family=Source+Code+Pro:200,400,600' rel='stylesheet')
 
   body(class=bodyClass)
-    include _navigation
 
-    block main
+    .container
+      block main
 
-    block sponsors
-      include _sponsors
+      block sponsors
+        include _sponsors
 
-    include _footer
+      include _footer
 
     block scripts
       include _scripts
