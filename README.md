@@ -1,4 +1,4 @@
-# 2017.jsunconf.eu
+# 2018.jsunconf.eu
 
 The website for the JS Unconf 2018. It is developed with [Metalsmith](http://metalsmith.io).
 
