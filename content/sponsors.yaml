@@ -1,7 +1,7 @@
 -
-  name: "Bla"
+  name: "boot e.V."
   level: Gold
-  url: "http://bla.com"
-  twitter: "@bla"
-  image: bla.svg
-  description: "bla"
+  url: "https://www.bootev.org/"
+  twitter: "@jsunconf"
+  image: jsunconf.svg
+  description: "JSUnconf"
