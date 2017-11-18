@@ -1,3 +1,30 @@
-footer
+footer.main-footer
   text-align: center
+  color: white
+  background-color:  var(--dark-plum)
+  padding-bottom: 50px
+
+.main-footer__people
+  background-image: url("/images/028.jpg")
+  background-color:  var(--dark-plum)
+  background-size: cover
+  height: 100px
+  background-position-y: 496px;
+  background-image: linear-gradient(29deg, var(--darkish-purple), #0b66b2 85%, var(--ocean-blue))
+
+.main-footer__people:before
+    content: ' '
+    display: block
+    height: 100%
+    z-index: 1
+    opacity: 0.3
+    background-size: cover
+    background-image: url("/images/yourConference.jpg")
+    background-repeat: no-repeat
+
+.main-footer__people__headline
+  top: -83px
+  position: relative
+
+.main-footer__link
   color: white
