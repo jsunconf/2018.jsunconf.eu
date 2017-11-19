@@ -151,6 +151,7 @@ footer.main-footer {
   background-color: #fff;
   color: #8f237f;
 }
+.section:nth-child(2n+1) a,
 .section:nth-child(2n+1) .section__call-to-action .button {
   color: #8f237f;
 }
@@ -165,6 +166,7 @@ footer.main-footer {
 .section__call-to-action {
   text-align: center;
 }
+a,
 .section__call-to-action .button {
   color: #fff;
 }
