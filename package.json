@@ -24,6 +24,7 @@
     "metalsmith-templates": "^0.7.0",
     "metalsmith-word-count": "0.0.4",
     "moment": "^2.10.6",
+    "subfont": "^2.0.1",
     "then-jade": "^2.4.1"
   },
   "scripts": {
@@ -31,6 +32,7 @@
     "clean": "rm -rf build",
     "server": "light-server -s ./docs/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
     "build": "metalsmith",
+    "postbuild": "subfont docs -i --inline-css",
     "test": ""
   },
   "repository": {
