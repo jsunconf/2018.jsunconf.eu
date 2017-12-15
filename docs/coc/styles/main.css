@@ -93,6 +93,9 @@ h3 {
   padding: 30px;
   height: 20vh;
 }
+.emoji-font {
+  font-family: monospace;
+}
 footer.main-footer {
   text-align: center;
   color: #fff;
