@@ -85,13 +85,8 @@ h3 {
 .main-header__logo__image {
   width: 50%;
 }
-.sub-header {
-  width: 100%;
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgba(196,60,183,0), var(--darkish-purple));
-  margin-bottom: 0;
-  padding: 30px;
-  height: 20vh;
+.main-header__tagline {
+  padding: 80px 30px;
 }
 .emoji-font {
   font-family: monospace;
