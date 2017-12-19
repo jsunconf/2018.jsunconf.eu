@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Source Code Pro__subset', 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
   color: #fff;
 }
 h1,
