@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Source Code Pro__subset', 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
   color: #fff;
 }
 h1,
@@ -85,6 +85,9 @@ h3 {
 .main-header__logo__image {
   width: 50%;
 }
+.main-header__tagline {
+  padding: 80px 30px;
+}
 .sub-header {
   width: 100%;
   text-align: center;
@@ -92,9 +95,6 @@ h3 {
   margin-bottom: 0;
   padding: 30px;
   height: 20vh;
-}
-.emoji-font {
-  font-family: monospace;
 }
 footer.main-footer {
   text-align: center;
