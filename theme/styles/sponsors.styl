@@ -1,0 +1,74 @@
+.sponsors__level__logos
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    align-items: center
+
+.sponsors__level__logos__link 
+    box-sizing: border-box
+    padding: 15px
+    flex: 0 1 32%
+    img 
+        width: 100%
+    &.sponsors__level__logos__link--Silver
+      flex: 0 1 25%
+    &.sponsors__level__logos__link--Bronze
+      flex: 0 1 22%
+
+@media screen and (max-width: 800px)
+    .sponsors__level__logos__link 
+        flex: 0 1 50%
+        &.sponsors__level__logos__link--Silver
+            flex: 0 1 32%
+        &.sponsors__level__logos__link--Bronze
+            flex: 0 1 25%
+
+@media screen and (max-width: 400px)
+    .sponsors__level__logos__link 
+        flex: 0 1 100%
+        &.sponsors__level__logos__link--Silver
+            flex: 0 1 50%
+        &.sponsors__level__logos__link--Bronze
+            flex: 0 1 32%
+
+.sponsorlist
+    background-color: $backgroundColor
+    color: white
+
+    .section.sponsor-headline
+        color: white
+        background: none
+        padding: 0
+    .exerpt
+        padding: 20px
+        margin: 0
+        height: 10%
+        background-image: linear-gradient(to bottom, rgba(196, 60, 183, 0.0), #911c80);
+        background-image: linear-gradient(to bottom, rgba(196, 60, 183, 0.0), var(--darkish-purple));
+
+    .sponsor-content
+        display: flex
+        flex-direction: column
+        align-items: center
+
+    .sponsors__level 
+        max-width: 635px
+        text-align: center
+        color: #ffffff
+        color: var(--white)
+        .sponsor__logo
+            flex: 1 1 100%
+        .sponsor__meta
+            flex: 1
+            padding: 30px
+            display: flex
+            justify-content: space-evenly 
+        .sponsor
+            padding: 30px
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-evenly
+    .sponsor__logo__image
+        max-height: 70px
+        width: 100%
+        

@@ -6,12 +6,21 @@ body
   flex-direction: column
 
   font-family: 'Source Code Pro', monospace
+  font-size: 18px
+  line-height: 1.67
   color: white
 
 h1, h2, h3
   text-align: center
 
 .container
-  background: url("/images/background.png");
-  background-size: 100%
-  background-repeat: no-repeat
+  background-image: url("/images/background.png"), 
+        linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
+        linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+  background-size: 100vh
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat
+  background-position: top,
+      top,
+      top

@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "The 5th edition of the JSUnconf website",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^4.16.0"
+  },
   "devDependencies": {
     "handlebars": "^4.0.6",
     "light-server": "^2.4.0",
