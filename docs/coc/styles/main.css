@@ -68,8 +68,9 @@ h3 {
   text-align: center;
 }
 .container {
+  width: 100%;
   background-image: url("/images/background.png"), linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4), linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha));
-  background-size: 100vh;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top, top, top;
 }
@@ -239,7 +240,7 @@ a,
   padding: 0;
 }
 .sponsorlist .exerpt {
-  padding: 20px;
+  padding: 60px;
   margin: 0;
   height: 10%;
   background-image: linear-gradient(to bottom, rgba(196,60,183,0), #911c80);
