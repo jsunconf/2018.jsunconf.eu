@@ -15,7 +15,7 @@ h1, h2, h3
 
 .container
   width: 100%
-  background-image: url("/images/background.png"), 
+  background-image: url("/images/background.jpg"), 
         linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
         linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
   background-size: 100vw 100vh
@@ -25,3 +25,22 @@ h1, h2, h3
   background-position: top,
       top,
       top
+
+@media screen and (max-width: 2000px)
+  .container
+    background-image: url("/images/background-2000.jpg"), 
+        linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
+        linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+ 
+@media screen and (max-width: 1000px)
+  .container
+    background-image: url("/images/background-1000.jpg"), 
+        linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
+        linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+
+@media screen and (max-width: 600px)
+  .container
+    background-image: url("/images/background-600.jpg"), 
+        linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
+        linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+ 
