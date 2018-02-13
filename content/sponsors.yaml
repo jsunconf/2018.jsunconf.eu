@@ -11,6 +11,15 @@ We are big believers in moving quickly, and getting stuff done. This means we fo
 What also matters to us is a happy and healthy team, which is why we encourage and respect your time out of the office."
 
 -
+  name: "codecentric"
+  level: Bronze
+  url: "https://codecentric.de"
+  twitter: "@codecentric"
+  image: codecentric.svg
+  description: "As an expert in custom software development, codecentric AG is the leader for agile software development and innovative technologies in Germany.
+codecentric develops software solutions for the future, something every one of our 400 employees at each of our 15 locations in Germany and other European countries is passionate about. codecentric combines the know-how of the best IT architects and software developers in Germany with practical knowledge from numerous projects in areas such as Continuous Delivery, Big Data, performance solutions, agile and enterprise software development and maintains partnerships with leading solutions partners."
+
+-
   name: "Jimdo"
   level: Gold
   url: "https://jimdo.com"
@@ -43,6 +52,15 @@ What also matters to us is a happy and healthy team, which is why we encourage a
   description: "sum.cumo helps lottery and insurance companies prepare their business model for the digital age. Backed by years of industry experience and a service offering tailored to digitalisation, we are able to produce quick, simple and efficient solutions for our customers - from corporations to innovative start-ups.
 sum.cumo is not only a partner for modern technical solutions and marketing opportunities, but also helps establish a holistic, digital company philosophy that factors in new and existing potential in companies and the rapidly-changing market.
 Our Specialists in Strategy, Consulting, Communication and Technology at our offices in Zurich and Hamburg look forward to expanding on the success of their Customers and executing new, innovative projects, perhaps for your company as well."
+
+-
+  name: "twilio"
+  level: Silver
+  url: "https://www.twilio.com"
+  twitter: "@twilio"
+  image: twilio.svg
+  description: "Twilio is a cloud communications platform for software developers to build, scale and operate real time communications in their software applications.
+Twilio powers the future of business communications, enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. We take care of the messy telecom hardware and expose a globally available cloud API so developers can interact with intelligent & complex communications systems."
 
 -
   name: "Ubilabs"
