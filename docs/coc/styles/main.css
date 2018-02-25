@@ -164,6 +164,7 @@ footer.main-footer {
 }
 .tickets__price {
   display: flex;
+  align-items: center;
   background-color: #8f237f;
   color: #fff;
   justify-content: space-between;
@@ -172,9 +173,17 @@ footer.main-footer {
   border: 2px solid #fff;
   text-decoration: none;
 }
-.tickets__price .bold {
+.tickets__price:hover {
+  display: flex;
+  background-color: #fff;
+  color: #8f237f;
+}
+.bold {
   font-weight: 600;
   margin-left: 20px;
+}
+.nowrap {
+  white-space: nowrap;
 }
 .section {
   background-color: #8f237f;
