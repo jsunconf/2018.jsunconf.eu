@@ -4,6 +4,7 @@
 
 .tickets__price
   display: flex
+  align-items: center
   background-color: $backgroundColor
   color: white
   justify-content: space-between
@@ -12,6 +13,14 @@
   border: 2px solid white
   text-decoration: none;
 
-  .bold
-    font-weight: 600
-    margin-left: 20px
+.tickets__price:hover
+  display: flex
+  background-color: white
+  color: $backgroundColor
+
+.bold
+  font-weight: 600
+  margin-left: 20px
+
+.nowrap
+  white-space nowrap
