@@ -67,6 +67,13 @@ h2,
 h3 {
   text-align: center;
 }
+a {
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+}
 .container {
   width: 100%;
   background-image: url("/images/background.jpg"), linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4), linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha));
@@ -77,16 +84,43 @@ h3 {
 @media screen and (max-width: 2000px) {
   .container {
     background-image: url("/images/background-2000.jpg"), linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4), linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha));
+    background-size: contain;
+  }
+  h1 {
+    font-size: 4rem;
+    line-height: 1.25em;
+  }
+  h2 {
+    font-size: 3.5rem;
+    line-height: 1.5em;
   }
 }
 @media screen and (max-width: 1000px) {
   .container {
     background-image: url("/images/background-1000.jpg"), linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4), linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha));
+    background-size: contain;
+  }
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.5em;
+  }
+  h2 {
+    font-size: 3rem;
+    line-height: 1.5em;
   }
 }
 @media screen and (max-width: 600px) {
   .container {
     background-image: url("/images/background-600.jpg"), linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4), linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha));
+    background-size: contain;
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.5em;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5em;
   }
 }
 .main-header {
@@ -134,17 +168,14 @@ footer.main-footer {
   padding-bottom: 50px;
 }
 .main-footer__people {
-  background-image: url("/images/028.jpg");
-  background-color: var(--dark-plum);
-  background-size: cover;
-  height: 100px;
-  background-position-y: 496px;
+  height: 50vh;
+  display: block;
   background-image: linear-gradient(29deg, var(--darkish-purple), #0b66b2 85%, var(--ocean-blue));
 }
 .main-footer__people:before {
   content: ' ';
-  display: block;
-  height: 100%;
+  display: flex;
+  height: 50vh;
   z-index: 1;
   opacity: 0.3;
   background-size: cover;
@@ -152,11 +183,43 @@ footer.main-footer {
   background-repeat: no-repeat;
 }
 .main-footer__people__headline {
-  top: -83px;
-  position: relative;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  margin-top: -31vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  opacity: 0.99;
+}
+.main-footer__links {
+  margin: 4rem 0;
 }
 .main-footer__link {
   color: #fff;
+}
+@media screen and (max-width: 2000px) {
+  .main-footer__people__headline {
+    font-size: 4.5rem;
+    line-height: 5.25rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-footer__people__headline {
+    font-size: 3.5rem;
+    line-height: 4.25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-footer__people__headline {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 .tickets__prices {
   display: inline-block;
@@ -169,7 +232,7 @@ footer.main-footer {
   color: #fff;
   justify-content: space-between;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 0;
   border: 2px solid #fff;
   text-decoration: none;
 }
@@ -188,7 +251,7 @@ footer.main-footer {
 .section {
   background-color: #8f237f;
   color: #fff;
-  padding: 40px 40px;
+  padding: 2.75rem 15vw;
 }
 .section:nth-child(2n+1) {
   background-color: #fff;
@@ -197,6 +260,14 @@ footer.main-footer {
 .section:nth-child(2n+1) a,
 .section:nth-child(2n+1) .section__call-to-action .button {
   color: #8f237f;
+}
+.section--location {
+  background: url("/images/bmk.jpg") no-repeat;
+  background-size: cover;
+}
+.section__content {
+  padding-bottom: 3rem;
+  max-width: 900px;
 }
 .section__header,
 .section__content {
@@ -212,6 +283,24 @@ footer.main-footer {
 a,
 .section__call-to-action .button {
   color: #fff;
+}
+.sponsors-button {
+  color: #fff !important;
+}
+@media screen and (max-width: 2000px) {
+  .section {
+    padding: 6.75rem 20vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section {
+    padding: 3.75rem 15vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 2.75rem 15vw;
+  }
 }
 .map {
   font-size: 1rem;
@@ -280,19 +369,12 @@ a,
   padding: 0;
 }
 .sponsorlist .exerpt {
-  padding: 60px;
+  padding: 0 60px;
   margin: 0;
-  height: 10%;
   background-image: linear-gradient(to bottom, rgba(196,60,183,0), #911c80);
   background-image: linear-gradient(to bottom, rgba(196,60,183,0), var(--darkish-purple));
 }
-.sponsorlist .sponsor-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .sponsorlist .sponsors__level {
-  max-width: 635px;
   text-align: center;
   color: #fff;
   color: var(--white);
@@ -307,7 +389,7 @@ a,
   justify-content: space-evenly;
 }
 .sponsorlist .sponsors__level .sponsor {
-  padding: 30px;
+  padding: 4rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

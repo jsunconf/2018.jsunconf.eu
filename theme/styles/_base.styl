@@ -13,6 +13,13 @@ body
 h1, h2, h3
   text-align: center
 
+a
+  font-weight: bold
+
+a:hover
+  text-decoration: none
+  text-transform: uppercase
+
 .container
   width: 100%
   background-image: url("/images/background.jpg"), 
@@ -31,16 +38,37 @@ h1, h2, h3
     background-image: url("/images/background-2000.jpg"), 
         linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
         linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+    background-size: contain
+  h1
+    font-size: 4rem
+    line-height: 1.25em
+  h2 
+    font-size: 3.5rem
+    line-height: 1.5em
  
 @media screen and (max-width: 1000px)
   .container
     background-image: url("/images/background-1000.jpg"), 
         linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
         linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+    background-size: contain
+  h1
+    font-size: 3.5rem
+    line-height: 1.5em
+  h2 
+    font-size: 3rem
+    line-height: 1.5em
 
 @media screen and (max-width: 600px)
   .container
     background-image: url("/images/background-600.jpg"), 
         linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
         linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
+    background-size: contain
+  h1
+    font-size: 2.5rem
+    line-height: 1.5em
+  h2 
+    font-size: 2rem
+    line-height: 1.5em
  
