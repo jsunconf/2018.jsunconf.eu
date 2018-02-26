@@ -5,26 +5,61 @@ footer.main-footer
   padding-bottom: 50px
 
 .main-footer__people
-  background-image: url("/images/028.jpg")
-  background-color:  var(--dark-plum)
-  background-size: cover
-  height: 100px
-  background-position-y: 496px;
+  //background-image: url("/images/028.jpg")
+  //background-color:  var(--dark-plum)
+  //background-size: cover
+  height: 50vh
+  display: block
+  //background-position-y: 496px;
   background-image: linear-gradient(29deg, var(--darkish-purple), #0b66b2 85%, var(--ocean-blue))
+  // background-image: url("/images/yourConference.jpg"), 
+  //         linear-gradient(72deg, #911c80, #0b66b2 85%, #0669b4),
+  //         linear-gradient(72deg, var(--darkish-purple-alpha), #0b66b2 85%, var(--ocean-blue-alpha))
 
 .main-footer__people:before
-    content: ' '
-    display: block
-    height: 100%
-    z-index: 1
-    opacity: 0.3
-    background-size: cover
-    background-image: url("/images/yourConference.jpg")
-    background-repeat: no-repeat
+  // position: relative
+  content: ' '
+  display: flex
+  height: 50vh
+  z-index: 1
+  opacity: 0.3
+  background-size: cover
+  background-image: url("/images/yourConference.jpg")
+  background-repeat: no-repeat
 
 .main-footer__people__headline
-  top: -83px
-  position: relative
+  font-weight: bold
+  font-size: 2.5rem
+  line-height: 3.25rem
+  margin-top: -31vh
+  margin-left: 1rem
+  margin-right: 1rem
+  opacity: 0.99
+
+.main-footer__links
+  margin: 4rem 0
 
 .main-footer__link
   color: white
+
+
+@media screen and (max-width: 2000px)
+  .main-footer__people__headline
+    font-size: 4.5rem
+    line-height: 5.25rem
+    margin-left: 7rem
+    margin-right: 7rem
+
+@media screen and (max-width: 1000px)
+  .main-footer__people__headline
+    font-size: 3.5rem
+    line-height: 4.25rem
+    margin-left: 6rem
+    margin-right: 6rem
+
+@media screen and (max-width: 600px)
+  .main-footer__people__headline
+    font-size: 2.5rem
+    line-height: 3.25rem
+    margin-left: 1rem
+    margin-right: 1rem

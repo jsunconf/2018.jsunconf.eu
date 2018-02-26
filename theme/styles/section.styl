@@ -1,26 +1,51 @@
 .section
-  background-color: $backgroundColor
-  color: white
-  padding: 40px 40px
+  background-color $backgroundColor
+  color white
+  //padding 40px 40px
+  padding 2.75rem 15vw
   &:nth-child(2n+1)
-    background-color: white
-    color: $backgroundColor
+    background-color white
+    color $backgroundColor
     a,
     .section__call-to-action .button
-      color: $backgroundColor
+      color $backgroundColor
+
+.section--location
+  background url('/images/bmk.jpg') no-repeat;
+  background-size cover;
+
+.section__content
+  padding-bottom 3rem
+  max-width 900px
 
 .section__header,
 .section__content
-    text-align: center
+  text-align center
 
 .section.section--sponsors
-  background-color:  var(--dark-plum)
-  color: white
-
+  background-color var(--dark-plum)
+  color white
 
 .section__call-to-action
-    text-align: center
+  text-align center
 
 a,
 .section__call-to-action .button
-  color: white
+  color white
+
+.sponsors-button
+  color white !important
+
+
+
+@media screen and (max-width: 2000px)
+  .section
+    padding 6.75rem 20vw
+    
+@media screen and (max-width: 1000px)
+  .section
+    padding 3.75rem 15vw
+
+@media screen and (max-width: 600px)
+  .section
+    padding 2.75rem 15vw
