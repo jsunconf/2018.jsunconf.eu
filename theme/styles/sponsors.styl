@@ -4,19 +4,20 @@
     justify-content: space-around
     align-items: center
 
-.sponsors__level__logos__link 
+.sponsors__level__logos__link
     box-sizing: border-box
     padding: 15px
     flex: 0 1 32%
-    img 
+    img
         width: 100%
+        max-height: 4rem
     &.sponsors__level__logos__link--Silver
       flex: 0 1 25%
     &.sponsors__level__logos__link--Bronze
       flex: 0 1 22%
 
 @media screen and (max-width: 800px)
-    .sponsors__level__logos__link 
+    .sponsors__level__logos__link
         flex: 0 1 50%
         &.sponsors__level__logos__link--Silver
             flex: 0 1 32%
@@ -24,7 +25,7 @@
             flex: 0 1 25%
 
 @media screen and (max-width: 400px)
-    .sponsors__level__logos__link 
+    .sponsors__level__logos__link
         flex: 0 1 100%
         &.sponsors__level__logos__link--Silver
             flex: 0 1 50%
@@ -52,7 +53,7 @@
         // flex-direction: column
         // align-items: center
 
-    .sponsors__level 
+    .sponsors__level
         // max-width: 635px
         text-align: center
         color: #ffffff
@@ -63,13 +64,12 @@
             flex: 1
             padding: 30px
             display: flex
-            justify-content: space-evenly 
+            justify-content: space-evenly
         .sponsor
             padding: 4rem 0
             display: flex
             flex-wrap: wrap
             justify-content: space-evenly
     .sponsor__logo__image
-        max-height: 70px
+        max-height: 5rem
         width: 100%
-        

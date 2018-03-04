@@ -25,7 +25,12 @@ block sponsors
                 a(href=sponsor.url, title=sponsor.name, target="_blank", class="sponsor__logo--"+level)
                   img.sponsor__logo__image(src="/images/sponsors/"+sponsor.image, alt=sponsor.name)
               .sponsor__meta
-                a.sponsor__meta__info(href="https://twitter.com/"+sponsor.twitter, title=sponsor.name, target="_blank")= sponsor.twitter
+                - var hasTwitter = !!sponsor.twitter;
+                if hasTwitter
+                  a.sponsor__meta__info(href="https://twitter.com/"+sponsor.twitter, title=sponsor.name, target="_blank")= sponsor.twitter
+                else
+                  a.sponsor__meta__info(href=sponsor.socialmedia, title=sponsor.name, target="_blank")
+                    | On Social Media
                 ||
                 a.sponsor__meta__info(href=sponsor.url, title=sponsor.name, target="_blank")= sponsor.name
               .sponsor__description!= sponsor.description

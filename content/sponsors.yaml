@@ -11,6 +11,14 @@ We are big believers in moving quickly, and getting stuff done. This means we fo
 What also matters to us is a happy and healthy team, which is why we encourage and respect your time out of the office."
 
 -
+  name: "CELLULAR"
+  level: Bronze
+  url: "https://cellular.de"
+  twitter: "@cellular"
+  image: cellular.svg
+  description: "What’s the perfect digital transformation strategy? As a combination of software company and creative agency CELLULAR covers the most important services to launch a product idea into the digital orbit. More than 100 experts, counting fifty developers work for awesome clients like ZDF, TUI Cruises, TVSpielfilm, BUDNI, Sunrise or Unitymedia. Our people are absolutely passionate about what they do. With high quality standards and agile principles we develop brilliant digital products with a strong focus on usability, performance and software craftsmanship. Sounds too good to be true, right? We’d love to hear from you, if you want find out more!"
+
+-
   name: "codecentric"
   level: Bronze
   url: "https://codecentric.de"
@@ -18,6 +26,24 @@ What also matters to us is a happy and healthy team, which is why we encourage a
   image: codecentric.svg
   description: "As an expert in custom software development, codecentric AG is the leader for agile software development and innovative technologies in Germany.
 codecentric develops software solutions for the future, something every one of our 400 employees at each of our 15 locations in Germany and other European countries is passionate about. codecentric combines the know-how of the best IT architects and software developers in Germany with practical knowledge from numerous projects in areas such as Continuous Delivery, Big Data, performance solutions, agile and enterprise software development and maintains partnerships with leading solutions partners."
+
+-
+  name: "eSailors"
+  level: Gold
+  url: "https://www.esailors.de/"
+  socialmedia: "https://www.linkedin.com/company/1797349/"
+  image: esailors.svg
+  description: "eSailors is a technology and software development provider based in the city centre of Hamburg – close to many infrastructural and recreational amenities. Our 150+ multicultural employees are predominantly working on state of the art eCommerce and lottery platforms.
+
+Why people love working here.
+
+Slack Times? Hackathons? eBook Libraries? Brown Bag Sessions? Benefits? Yes, working for us includes a lot of those goodies (besides working with the newest technologies). But what exactly distinguishes us from other relevant players in our industry?
+
+We empower people by trusting and investing in their talent.
+
+As much fun as we have, we’re serious about that one. You bring your skills, your expertise, your human capacity into our company culture. We respect that and consider it our duty to help you grow with us. Therefore we empower our teams and their members to take ownership and act like independent entrepreneurs within our company.
+
+We are searching for people with braveness and skills to go unknown paths."
 
 -
   name: "Jimdo"
@@ -28,12 +54,36 @@ codecentric develops software solutions for the future, something every one of o
   description: "Jimdo is the easiest way to create a website on a computer, smartphone, or tablet. With a simple intuitive interface, Jimdo enables anyone to create a customized online presence with a blog or online store. Founded in Germany in 2007 by Christian Springub, Fridtjof Detzner, and Matthias Henze, the company set a new standard in website creation. Jimdo has a passionate team of around 200 people in Hamburg and Tokyo. Jimdo is available in 8 languages and has helped people build over 20 million websites."
 
 -
+  name: "Magicline"
+  level: Bronze
+  url: "http://www.magicline.com/de/"
+  socialmedia: "https://www.facebook.com/magicline.de/"
+  image: magicline.svg
+  description: "Magicline is a software company that offers a cloud based solution for
+the sports and health industry. As one of the German market leaders for
+management software in the sports and health industry, Magicline is the
+management system for more than 3,000 customers.
+Started development of cloud based Magicline 2.0 in 2014 and replaced an
+existing software solution based on MS Access by now. A development team
+of 40 developers is working hard to make our new Magicline even better."
+
+-
   name: "neuland Büro für Informatik"
   level: Silver
   url: "https://www.neuland-bfi.de/"
   twitter: "@neuland"
   image: neuland.svg
   description: "The neuland bremen GmbH is one of the 10 largest e-commerce service providers in Germany and is placed 8th in the 2015 e-commerce service provider ranking. We only do consulting and development in the field of e-commerce. Our customers include companies like Breuninger (fashion), Douglas (perfumery), Höffner (furniture) or OBI (DIY). Our core competence is the creation of of highly customised, high-quality shop solutions for large enterprises. We use agile and iterative methods for all project operations, especially in planning, development and control. We support our customers to adapt their business processes. We manage online projects - with everything that goes with it. Our team is talented and well trained - we even have fun at work. What can you expect? Smart people in self-organised teams. Critical thinking and the sometimes uncomfortable questions that go with it. Direct, open collaboration with our customers; we see ourselves as partners. The conviction, that what we do makes a difference - this is our recipe for success."
+
+-
+  name: "Shopify"
+  level: Bronze
+  url: "https://www.shopify.com"
+  twitter: "@Shopify"
+  image: shopify.svg
+  description: "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Red Bull, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more.
+
+"
 
 -
   name: "SinnerSchrader"
