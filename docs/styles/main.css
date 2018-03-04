@@ -333,6 +333,7 @@ a,
 }
 .sponsors__level__logos__link img {
   width: 100%;
+  max-height: 4rem;
 }
 .sponsors__level__logos__link.sponsors__level__logos__link--Silver {
   flex: 0 1 25%;
@@ -399,6 +400,6 @@ a,
   justify-content: space-evenly;
 }
 .sponsorlist .sponsor__logo__image {
-  max-height: 70px;
+  max-height: 5rem;
   width: 100%;
 }
