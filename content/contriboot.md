@@ -5,4 +5,5 @@ exerpt:         This is the contribution tool for the JSUnconf 2018. You can add
         <br>
         <br>
         You decide what will happen!
+bodyClass: contriboot
 ---
