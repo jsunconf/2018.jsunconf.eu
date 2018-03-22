@@ -441,6 +441,13 @@ a,
   text-align: center;
   background-image: linear-gradient(to bottom, rgba(196,60,183,0), var(--darkish-purple));
 }
+.contriboot .entry__header__votes__button {
+  background-color: transparent;
+}
+.contriboot .entries-container,
+.contriboot .user {
+  padding: 4.75rem 20vw;
+}
 @media screen and (min-width: 1000px) {
   .section__header {
     background-position-y: -10rem;
