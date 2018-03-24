@@ -484,14 +484,10 @@ a,
   background: #dc49c6;
 }
 .contriboot .entries-container {
-<<<<<<< HEAD
-  padding: 4.75rem 15vw 4.75rem 15vw;
-=======
   padding: 0;
->>>>>>> added open-close functionality on click to contriboot entries, styled them and added spacing. also styled github login button
 }
 .contriboot .user {
-  padding: 0rem 15vw 6.75rem 15vw;
+  padding: 0rem 0vw 6.75rem 0vw;
 }
 .contriboot .user__message {
   text-align: center;
