@@ -67,6 +67,9 @@ h2,
 h3 {
   text-align: center;
 }
+h3 {
+  font-size: 1.75rem;
+}
 a {
   font-weight: bold;
 }
@@ -411,18 +414,6 @@ a,
   background-color: #8f237f;
   color: #fff;
 }
-.contriboot ul {
-  list-style-type: none;
-  padding: 0;
-}
-.contriboot h3 {
-  text-align: left;
-  display: inline-grid;
-  width: 100%;
-}
-.contriboot li {
-  text-align: left;
-}
 .contriboot .section__header {
   background-image: url("/images/background.jpg");
   background-size: cover;
@@ -441,12 +432,78 @@ a,
   text-align: center;
   background-image: linear-gradient(to bottom, rgba(196,60,183,0), var(--darkish-purple));
 }
+.contriboot ul {
+  list-style-type: none;
+  padding: 0;
+}
+.contriboot ul a {
+  display: block;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+}
+.contriboot ul a:hover {
+  background: #fff;
+  color: var(--darkish-purple);
+}
+.contriboot ul h3 {
+  text-align: left;
+  display: inline-grid;
+  width: 100%;
+  margin: 0;
+}
+.contriboot ul small {
+  font-size: 1rem;
+}
+.contriboot ul li {
+  text-align: left;
+}
+.contriboot .entry {
+  margin-bottom: 5rem;
+}
+.contriboot .entry p {
+  padding: 0 1rem 0 1rem;
+  display: none;
+}
+.contriboot .entry--active {
+  border: 1px solid #fff;
+}
+.contriboot .entry--active a {
+  background: #fff;
+  color: var(--darkish-purple);
+}
+.contriboot .entry--active p {
+  display: block;
+}
+.contriboot .entry__header__votes {
+  display: inline-block;
+  margin: 1.5rem 1rem 0.5rem 1rem;
+}
 .contriboot .entry__header__votes__button {
   background-color: transparent;
+  margin-right: 0.5rem;
 }
-.contriboot .entries-container,
+.contriboot .entry__header__votes__button:hover {
+  background: #dc49c6;
+}
+.contriboot .entries-container {
+  padding: 4.75rem 15vw 4.75rem 15vw;
+}
 .contriboot .user {
-  padding: 4.75rem 20vw;
+  padding: 0rem 15vw 6.75rem 15vw;
+}
+.contriboot .user__message {
+  text-align: center;
+}
+.contriboot .user__button-login {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  width: 100%;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.contriboot .user__button-login:hover {
+  text-transform: uppercase;
+  text-decoration: none;
 }
 @media screen and (min-width: 1000px) {
   .section__header {
