@@ -57,7 +57,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro__subset', 'Source Code Pro', monospace;
   font-size: 18px;
   line-height: 1.67;
   color: #fff;
