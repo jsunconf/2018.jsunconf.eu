@@ -413,6 +413,13 @@ a,
   background-color: #8f237f;
   color: #fff;
 }
+.contriboot input,
+.contriboot textarea,
+.contriboot .textarea {
+  outline: none;
+  background-color: #fff;
+  color: #000;
+}
 .contriboot .section__header {
   background-image: url("/images/background.jpg");
   background-size: cover;
