@@ -33,6 +33,7 @@
     
         a
             display block
+            line-height: 2.25rem
             padding 0.75rem 1rem 0.75rem 1rem
     
         a:hover
@@ -52,10 +53,21 @@
             text-align: left
 
     .entry
-        margin-bottom: 5rem
+        margin-bottom: 4rem
+        padding-bottom: 1rem
+        border 1px solid var(--darkish-purple)
+
         p
-            padding 0 1rem 0 1rem
+            padding-top: 1.5rem
+
+        .entry__description
             display: none
+
+        li
+            padding: 1rem 0 0 1rem
+
+        li li
+            padding-top: 0
 
     .entry--active
         border 1px solid white
@@ -63,12 +75,16 @@
         a
             background white
             color var(--darkish-purple)
+
         p
+            margin: 0
+
+        .entry__description
             display: block
 
     .entry__header__votes
         display: inline-block
-        margin 1.5rem 1rem 0.5rem 1rem
+        margin 1.5rem 1rem 1rem 1rem
 
     .entry__header__votes__button
         background-color: transparent
@@ -79,6 +95,9 @@
 
     .entries-container
         padding: 0
+
+    .entry__description
+        padding: 0 2rem 1rem 1rem
 
     .user
         padding: 0rem 0vw 6.75rem 0vw
