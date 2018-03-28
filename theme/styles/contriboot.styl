@@ -2,6 +2,14 @@
     background-color: $backgroundColor
     color: white
     
+
+    .textarea
+        height: 6em
+        text-align: left
+        p
+            text-align: left
+            margin: 0
+
     input,
     textarea,
     .textarea
@@ -116,6 +124,32 @@
     .user__button-login:hover
         text-transform: uppercase
         text-decoration: none
+
+
+    fieldset
+        label 
+            float: left
+            width: 25%
+            text-align: left
+        .medium-editor-element, input
+            float: left
+            width: 65%
+            margin: 5px
+
+    .submit-form__type-selection
+        input
+            float: left
+            width: 20%
+            height: auto
+            margin: none
+        label 
+            float: left
+            width: 75%
+            text-align: left
+
+    .submit-form button,
+    .user .button
+            background-color: var(--dark-plum)
 
 @media screen and (min-width: 1000px)   
     .section__header
