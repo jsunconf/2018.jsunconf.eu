@@ -307,6 +307,28 @@ a,
     padding: 2.75rem 15vw;
   }
 }
+.section--schedule .schedules-container {
+  justify-content: space-around;
+  display: flex;
+}
+@media (max-width: 600px) {
+  .section--schedule .schedules-container {
+    flex-direction: column;
+  }
+}
+.section--schedule .schedule-line:nth-child(2n+1) {
+  background-color: var(--dark-plum);
+}
+.section--schedule .schedule-line {
+  padding: 5px 10px;
+  text-align: left;
+}
+.section--schedule .schedule__time {
+  opacity: 0.7;
+}
+.section--schedule .schedule {
+  padding: 5px;
+}
 .map {
   font-size: 1rem;
   position: relative;
