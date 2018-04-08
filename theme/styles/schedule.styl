@@ -1,0 +1,22 @@
+.section--schedule
+  .schedules-container
+    justify-content: space-around
+    display: flex
+
+    @media $mediaQuerySmall
+      flex-direction: column
+
+  .schedule-line:nth-child(2n+1)
+    background-color: var(--dark-plum)
+
+  .schedule-line
+    padding: 5px 10px
+    text-align: left
+
+  .schedule__time
+    opacity: 0.7
+
+  .schedule
+    padding: 5px
+
+    
