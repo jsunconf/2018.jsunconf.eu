@@ -7,7 +7,7 @@ exerpt:
 
 This conference is proudly presented to you by
 
-[Tina Umlandt](https://twitter.com/tu404), [Patty Chaupis](https://twitter.com/chaupois) and [Stefan Schulte](https://twitter.com/schubidu)
+[Tina Umlandt](https://twitter.com/tu404), [Robert Kowalski](https://twitter.com/robinson_k), [Patty Chaupis](https://twitter.com/chaupois) and [Stefan Schulte](https://twitter.com/schubidu)
 
 <br><br>
 Design by [Jonas Schmidt](https://twitter.com/JonasASchmidt)
@@ -18,10 +18,9 @@ The JSUnconf is organized by the [BOOT e.V.](https://www.bootev.org/)
 
 ```
 BOOT - Best Of Open Technologies e.V.
-Eingang 11
-Stresemannstrasse 375
-22761 Hamburg
-Deutschland
+Ritterstraße 3a
+22089 Hamburg
+Germany
 
 E-Mail: contact@jsunconf.eu
 Ust. IdNr.: DE284511032
